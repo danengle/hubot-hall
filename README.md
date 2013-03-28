@@ -5,7 +5,7 @@ hubot-hall
 
 ### Compatibility with Hubot
 
-Hubot >= 2.4.2
+ * Hubot >= 2.4.2
 
 ### Compatibility with NodeJS
 
@@ -17,9 +17,9 @@ Hubot >= 2.4.2
 
 1. Create a new Hall account for your bot to use.
 
-     * Make sure the first name of the account is the name of your hubot
-     * You can leave the last name blank
-     * Record the email address and password so you can configure your Hubot-Hall adapter later
+ * Make sure the first name of the account is the name of your hubot
+ * You can leave the last name blank
+ * Record the email address and password so you can configure your Hubot-Hall adapter later
 
 1. The `hubot/` directory that you created in the Hubot on Heroku instructions above is all that is relevant to us now. Let's switch to it:
 
