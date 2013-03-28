@@ -32,7 +32,7 @@
 		"url" : "http://opensource.org/licenses/mit-license.php"
 	},
 	"dependencies": {
-		"hall" : "0.0.0"
+		"node-hall-client" : "https://github.com/hall/node-hall-client/tarball/master"
 	},
 	"devDependencies": {
 		"coffee-script": ">=1.2.0"
