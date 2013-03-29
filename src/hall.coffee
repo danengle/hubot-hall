@@ -2,7 +2,7 @@
 {Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, Response} = require (process.env.HUBOT_HALL_REQUIRE_PATH || 'hubot')
 
 # Hall dependencies
-hall = require 'hall'
+hall = require 'hall-client'
 
 class Hall extends Adapter
 		
