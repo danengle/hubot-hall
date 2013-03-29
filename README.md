@@ -20,6 +20,7 @@ hubot-hall
  * You can leave the last name blank
  * Record the email address and password so you can configure your Hubot-Hall adapter later
 
+
 1. The `hubot/` directory that you created in the Hubot on Heroku instructions above is all that is relevant to us now. Let's switch to it:
 
         % cd hubot/
