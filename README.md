@@ -16,9 +16,9 @@ hubot-hall
 1. Complete the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Heroku) and return to these steps to configure your app for Hall.
 
 1. Create a new Hall account for your bot to use.
- * Make sure the first name of the account is the name of your hubot
- * You can leave the last name blank
- * Record the email address and password so you can configure your Hubot-Hall adapter later
+ * You can set the first name and last name on the account to whatever you wish.
+ * Once setup is complete, you can invoke your bot with either the full name of the user account or with the name you give the bot when you start it up.
+ * Record the email address and password so you can configure your Hubot-Hall adapter later.
 
 
 1. The `hubot/` directory that you created in the Hubot on Heroku instructions above is all that is relevant to us now. Let's switch to it:
@@ -79,9 +79,9 @@ hubot-hall
 1. Complete the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Unix) and return to these steps to configure your app for Hall.
 
 1. Create a new Hall account for your bot to use.
- * Make sure the first name of the account is the name of your hubot
- * You can leave the last name blank
- * Record the email address and password so you can configure your Hubot-Hall adapter later
+ * You can set the first name and last name on the account to whatever you wish.
+ * Once setup is complete, you can invoke your bot with either the full name of the user account or with the name you give the bot when you start it up.
+ * Record the email address and password so you can configure your Hubot-Hall adapter later.
 
 1. The `hubot/` directory that you created in the Hubot on Unix instructions above is all that is relevant to us now. Let's switch to it:
 
