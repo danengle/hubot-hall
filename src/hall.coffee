@@ -34,8 +34,8 @@ class Hall extends Adapter
 						name: item.full_name
 						room: item.hall_uuid
 					return if @bot.get 'id' == author.id
-					regex_bot_name = new RegExp("^@#{@robot.name}(,|\\b)", "i")
-					regex_user_name = new RegExp("^@#{@bot.get 'full_name'}(,|\\b)", "i")
+					regex_bot_name = new RegExp("^@?#{@robot.name}(,|\\b)", "i")
+					regex_user_name = new RegExp("^@?#{@bot.get 'full_name'}(,|\\b)", "i")
 					if item.message.match(regex_bot_name)
 						hubot_msg = item.message.replace(regex_bot_name, "#{@robot.name}:")
 					else if item.message.match(regex_user_name)
