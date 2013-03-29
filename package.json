@@ -5,7 +5,7 @@
 	"main": "./src/hall",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Hall/hubot-hall.git"
+		"url": "https://github.com/hall/hubot-hall.git"
 	},
 	"author": {
 		"name" : "Hall",
@@ -32,7 +32,7 @@
 		"url" : "http://opensource.org/licenses/mit-license.php"
 	},
 	"dependencies": {
-		"node-hall-client" : "https://github.com/hall/node-hall-client/tarball/master"
+		"hall-client" : "latest"
 	},
 	"devDependencies": {
 		"coffee-script": ">=1.2.0"
