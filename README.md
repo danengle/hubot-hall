@@ -32,6 +32,8 @@ hubot-hall
           ...
         }
 
+1. If you won't be using the `redis-brain.coffee` script, you need to remove it from the array in `hubot-scripts.json` file.
+
 1. Edit `Procfile` and change it to use the `hall` adapter:
 
         web: bin/hubot --adapter hall
