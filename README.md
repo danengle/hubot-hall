@@ -90,7 +90,7 @@ hubot-hall
 1. Edit `package.json` and add `hubot-hall` to the `dependencies` section. It should look something like this:
 
         "dependencies": {
-          "hubot-hall": "latest",
+          "hubot-hall": "https://github.com/hall/hubot-hall/tarball/master",
           ...
         }
 
