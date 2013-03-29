@@ -107,9 +107,11 @@ hubot-hall
 
 1. Or run hubot from a script like so:
 
-      #!/bin/bash
-      
-      export HUBOT_HALL_EMAIL="..."
-      export HUBOT_HALL_PASSWORD="..."
-      
-      bin/hubot --a hall
+```bash
+#!/bin/bash
+
+export HUBOT_HALL_EMAIL="..."
+export HUBOT_HALL_PASSWORD="..."
+
+bin/hubot --a hall
+```
