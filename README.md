@@ -66,3 +66,16 @@ hubot-hall
 1. To configure the commands the bot responds to, you'll need to edit the `hubot-scripts.json` file ([valid script names here](https://github.com/github/hubot-scripts/tree/master/src/scripts)) or add scripts to the `scripts/` directory.
 
 1. To deploy an updated version of the bot, simply commit your changes and run `git push heroku master` again.
+
+## Running on Unix
+
+1. Follow the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Unix).
+
+To run locally on OSX or Linux you'll need to set the required environment variables and run the `bin/hubot` script. An example script to run the bot might look like:
+
+    #!/bin/bash
+
+    export HUBOT_HALL_EMAIL="..."
+    export HUBOT_HALL_PASSWORD="..."
+
+    ~/hubot/bin/hubot --adapter hall
