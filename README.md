@@ -38,7 +38,7 @@ hubot-hall
 
 1. Configure it:
 
-      You will need to set a configuration variable if you are hosting on the free Heroku plan.
+      You will need to set a configuration variable if you are hosting on the free Heroku plan (if you haven't already done so).
 
         % heroku config:add HEROKU_URL=http://soothing-mists-4567.herokuapp.com
 
@@ -51,6 +51,11 @@ hubot-hall
       Set the password to the password chosen when you created the bot's account.
 
         % heroku config:add HUBOT_HALL_PASSWORD="..."
+		
+1. Add and commit your package.json changes:
+
+        % git add .
+		% git commit -m "added the hubot-hall dependency"
 
 1. Deploy and start the bot:
 
