@@ -16,7 +16,6 @@ hubot-hall
 1. Follow the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Heroku).
 
 1. Create a new Hall account for your bot to use.
-
  * Make sure the first name of the account is the name of your hubot
  * You can leave the last name blank
  * Record the email address and password so you can configure your Hubot-Hall adapter later
