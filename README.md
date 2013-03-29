@@ -71,11 +71,45 @@ hubot-hall
 
 1. Follow the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Unix).
 
-To run locally on OSX or Linux you'll need to set the required environment variables and run the `bin/hubot` script. An example script to run the bot might look like:
+1. Create a new Hall account for your bot to use.
+ * Make sure the first name of the account is the name of your hubot
+ * You can leave the last name blank
+ * Record the email address and password so you can configure your Hubot-Hall adapter later
+
+1. The `hubot/` directory that you created in the Hubot on Unix instructions above is all that is relevant to us now. Let's switch to it:
+
+        % cd hubot/
+
+1. Edit `package.json` and add `hubot-hall` to the `dependencies` section. It should look something like this:
+
+        "dependencies": {
+          "hubot-hall": "latest",
+          ...
+        }
+
+1. Install the dependencies
+
+        % npm install
+
+1. Configure it:
+
+      Set the email to the email you used to register the bot with Hall:
+
+        % heroku config:add HUBOT_HALL_EMAIL="..."
+
+      Set the password to the password chosen when you created the bot's account.
+
+        % heroku config:add HUBOT_HALL_PASSWORD="..."
+
+1. Run the hubot with the Hall adapter
+
+        % bin/hubot -a hall
+
+1. Or run hubot from a script like so:
 
     #!/bin/bash
 
     export HUBOT_HALL_EMAIL="..."
     export HUBOT_HALL_PASSWORD="..."
 
-    ~/hubot/bin/hubot --adapter hall
+    bin/hubot --a hall
