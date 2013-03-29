@@ -36,7 +36,7 @@ hubot-hall
 
 1. Edit `Procfile` and change it to use the `hall` adapter and give it a name (optional) where `bot_name` is the name you'll use to invoke the bot (it will default to hubot):
 
-        web: bin/hubot --a hall --n bot_name
+        web: bin/hubot -a hall -n bot_name
 
 1. Configure it:
 
