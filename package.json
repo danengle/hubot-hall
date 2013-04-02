@@ -1,6 +1,6 @@
 {
 	"name": "hubot-hall",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A Hall adapter for hubot",
 	"main": "./src/hall",
 	"repository": {
