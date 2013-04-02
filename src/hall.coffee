@@ -33,14 +33,14 @@ class Hall extends Adapter
 						id: item.author_id
 						name: item.full_name
 						room: item.hall_uuid
-					return if @bot.get 'id' == author.id
+					return if @bot.get('id') == author.id
 					regex_bot_name = new RegExp("^@?#{@robot.name}(,|\\b)", "i")
 					regex_user_name = new RegExp("^@?#{@bot.get 'full_name'}(,|\\b)", "i")
 					if item.message.match(regex_bot_name)
 						hubot_msg = item.message.replace(regex_bot_name, "#{@robot.name}:")
 					else if item.message.match(regex_user_name)
 						hubot_msg = item.message.replace(regex_user_name, "#{@robot.name}:")
-					@receive new TextMessage(author, hubot_msg)
+					@receive new TextMessage(author, hubot_msg) if hubot_msg
 			
 		@socket.on 'firehose:feed_item_create', onFeedItemCreate
 		
