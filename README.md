@@ -13,7 +13,7 @@ hubot-hall
 
 ## Installing Hubot-Hall on Heroku
 
-1. Complete the [instructions in the Hubot wiki](https://github.com/github/hubot/wiki/Deploying-Hubot-onto-Heroku) and return to these steps to configure your app for Hall.
+1. Complete the [instructions in the Hubot README for your particular platform](https://github.com/github/hubot/blob/master/docs/deploying) and return to these steps to configure your app for Hall.
 
 1. Create a new Hall account for your bot to use.
  * You can set the first name and last name on the account to whatever you wish.
