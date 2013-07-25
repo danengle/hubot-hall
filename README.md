@@ -32,6 +32,13 @@ hubot-hall
           ...
         }
 
+1. Edit `package.json` and add a `node` limitation to the `engines` section. It should look something like this (the Hall adapter only works with a limited range of node versions):
+
+        "engines": {
+          "node": ">= 0.8.x <= 0.9.0",
+          ...
+        }
+
 1. If you won't be using the `redis-brain.coffee` script, you need to remove it from the array in `hubot-scripts.json` file.
 
 1. Edit `Procfile` and change it to use the `hall` adapter and give it a name (optional) where `bot_name` is the name you'll use to invoke the bot (it will default to hubot):
@@ -91,6 +98,13 @@ hubot-hall
 
         "dependencies": {
           "hubot-hall": "latest",
+          ...
+        }
+
+1. Edit `package.json` and add a `node` limitation to the `engines` section. It should look something like this (the Hall adapter only works with a limited range of node versions):
+
+        "engines": {
+          "node": ">= 0.8.x <= 0.9.0",
           ...
         }
 
