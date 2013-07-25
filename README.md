@@ -9,7 +9,7 @@ hubot-hall
 
 ### Compatibility with NodeJS
 
- * Preferably use NodeJS 0.8.x or later
+ * NodeJS >= 0.8.x <= 0.9.0
 
 ## Installing Hubot-Hall on Heroku
 
@@ -53,7 +53,7 @@ hubot-hall
       Set the password to the password chosen when you created the bot's account.
 
         % heroku config:add HUBOT_HALL_PASSWORD="..."
-		
+
 1. Add and commit your package.json changes:
 
         % git add .
@@ -102,11 +102,11 @@ hubot-hall
 
       Set the email to the email you used to register the bot with Hall:
 
-        % heroku config:add HUBOT_HALL_EMAIL="..."
+        % export HUBOT_HALL_EMAIL="..."
 
       Set the password to the password chosen when you created the bot's account.
 
-        % heroku config:add HUBOT_HALL_PASSWORD="..."
+        % export HUBOT_HALL_PASSWORD="..."
 
 1. Run the hubot with the Hall adapter
 
