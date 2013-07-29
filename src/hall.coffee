@@ -58,7 +58,7 @@ class Hall extends Adapter
 				meta: 	'Hall-Hubot-Adapter/'+pjson.version
 
 		unless cfg.email and cfg.password
-			console.error "ERROR: No credentials in environment variables HUBOT_HALL_LOGIN_EMAIL and HUBOT_HALL_LOGIN_PASSWORD"
+			console.error "ERROR: No credentials in environment variables HUBOT_HALL_EMAIL and HUBOT_HALL_PASSWORD"
 			@emit "error", "No credentials"
 
 		@bot = new hall(cfg)
