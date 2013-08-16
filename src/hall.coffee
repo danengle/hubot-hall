@@ -42,10 +42,10 @@ class Hall extends Adapter
 				regex_user_name = new RegExp("^@?#{@bot.session.get 'display_name'}(,|\\b)", "i")
 				message = data.message.plain
 				if message.match(regex_bot_name)
-					hubot_msg = message.replace(regex_bot_name, "#{@robot.name}:")
+					message = message.replace(regex_bot_name, "#{@robot.name}:")
 				else if message.match(regex_user_name)
-					hubot_msg = message.replace(regex_user_name, "#{@robot.name}:")
-				@receive new TextMessage(author, hubot_msg) if hubot_msg
+					message = message.replace(regex_user_name, "#{@robot.name}:")
+				@receive new TextMessage(author, message)
 
 		@io.on 'ROOM_ITEM_NEW', onRoomItemNew
 
