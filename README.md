@@ -7,10 +7,6 @@ hubot-hall
 
  * Hubot >= 2.4.2
 
-### Compatibility with NodeJS
-
- * NodeJS >= 0.8.x <= 0.9.0
-
 ## Installing Hubot-Hall on Heroku
 
 1. Complete the [instructions in the Hubot README for your particular platform](https://github.com/github/hubot/blob/master/docs/deploying) and return to these steps to configure your app for Hall.
