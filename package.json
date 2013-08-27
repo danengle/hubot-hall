@@ -1,42 +1,42 @@
 {
-	"name": "hubot-hall",
-	"version": "1.0.2",
-	"description": "A Hall adapter for hubot",
-	"main": "./src/hall",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hall/hubot-hall.git"
-	},
-	"author": {
-		"name" : "Hall",
-		"url" : "https://hall.com"
-	},
-	"contributors": [
-	{
-		"name": "Ron Adams",
-		"email": "ron@hall-inc.com"
-	}
-	],
-	"keywords": [
-		"github",
-		"hubot",
-		"hall",
-		"adapter",
-		"bot",
-		"chat",
-		"steaming",
-		"realtime"
-	],
-	"licenses": {
-		"type" : "MIT",
-		"url" : "http://opensource.org/licenses/mit-license.php"
-	},
-	"dependencies": {
-		"hall-client" : "1.0.1",
-		"underscore" : "latest",
+  "name": "hubot-hall",
+  "version": "1.0.2",
+  "description": "A Hall adapter for hubot",
+  "main": "./src/hall",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hall/hubot-hall.git"
+  },
+  "author": {
+    "name" : "Hall",
+    "url" : "https://hall.com"
+  },
+  "contributors": [
+  {
+    "name": "Ron Adams",
+    "email": "ron@hall-inc.com"
+  }
+  ],
+  "keywords": [
+    "github",
+    "hubot",
+    "hall",
+    "adapter",
+    "bot",
+    "chat",
+    "steaming",
+    "realtime"
+  ],
+  "licenses": {
+    "type" : "MIT",
+    "url" : "http://opensource.org/licenses/mit-license.php"
+  },
+  "dependencies": {
+    "hall-client" : "1.0.1",
+    "underscore" : "latest",
     "debug" : "latest"
-	},
-	"devDependencies": {
-		"coffee-script": ">=1.2.0"
-	}
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  }
 }
