@@ -1,6 +1,6 @@
 {
   "name": "hubot-hall",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Hall adapter for hubot",
   "main": "./src/hall",
   "repository": {
@@ -32,7 +32,7 @@
     "url" : "http://opensource.org/licenses/mit-license.php"
   },
   "dependencies": {
-    "hall-client" : "1.0.1",
+    "hall-client" : "1.0.2",
     "underscore" : "latest",
     "debug" : "latest"
   },
