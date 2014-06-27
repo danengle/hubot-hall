@@ -1,9 +1,9 @@
 hubot-hall
 ==========
 
-# A [Hubot](https://github.com/github/hubot) adapter for [Hall](https://hall.com)
+## A [Hubot](https://github.com/github/hubot) adapter for [Hall](https://hall.com)
 
-Please view the quick start instructions below, or the subsequent detailed instructions.
+Please view the quick start instructions below, or the subsequent detailed instructions if you are starting from scratch.
 
 ### Compatibility with Hubot
 
@@ -126,12 +126,14 @@ Please view the quick start instructions below, or the subsequent detailed instr
 
 1. Or run hubot from a script like so:
 
-    #!/bin/bash
+<pre>
+  #!/bin/bash
 
-    export HUBOT_HALL_EMAIL="..."
-    export HUBOT_HALL_PASSWORD="..."
+  export HUBOT_HALL_EMAIL="..."
+  export HUBOT_HALL_PASSWORD="..."
 
-    bin/hubot --a hall
+  bin/hubot --a hall
+</pre>
 
 ## Detailed setup instructions
 
