@@ -32,7 +32,7 @@
     "url" : "http://opensource.org/licenses/mit-license.php"
   },
   "dependencies": {
-    "hall-client" : "danengle/hubot-hall",
+    "hall-client" : "danengle/node-hall-client",
     "underscore" : "latest",
     "debug" : "latest"
   },
