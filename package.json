@@ -5,7 +5,7 @@
   "main": "./src/hall",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hall/hubot-hall.git"
+    "url": "https://github.com/danengle/hubot-hall.git"
   },
   "author": {
     "name" : "Hall",
