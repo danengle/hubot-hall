@@ -9,9 +9,8 @@ pjson =     require('../package.json')
 
 class Hall extends Adapter
 
-  send: (params, strings...) ->
-    user = @userFromParams(params)
-    @bot.sendMessage user.room_id, user.room_type, str for str in strings
+  send: (message) ->
+    @bot.sendMessage message
 
   reply: (params, strings...) ->
     user = @userFromParams(params)
